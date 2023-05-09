@@ -1,0 +1,35 @@
+_id: req_cf6a70db40f64f44b5197f824e31cb28
+type: Request
+parentId: fld_14a851f6ff834ddcb890f46b912e3e7d
+modified: 1683622704486
+created: 1683622704486
+url: "{{ _.base_url }}/user/createWithArray"
+name: Creates list of users with given input array
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    [
+      {
+        "id": 0,
+        "username": "string",
+        "firstName": "string",
+        "lastName": "string",
+        "email": "string",
+        "password": "string",
+        "phone": "string",
+        "userStatus": 0
+      }
+    ]
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1683622704486
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
