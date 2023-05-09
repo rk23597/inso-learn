@@ -1,0 +1,21 @@
+_id: req_f7877cac3a61499ba67e6c577e12004e
+type: Request
+parentId: wrk_c17da069951a4152825c85aa621d9411
+modified: 1683623020185
+created: 1683622992179
+url: https://httpbin.org/ip
+name: Get IP Address
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1683622992179
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
