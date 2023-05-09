@@ -1,1 +1,3 @@
-
+rules:
+  oas3-operation-description:
+    enabled: false
